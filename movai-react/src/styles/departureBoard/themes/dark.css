@@ -1,0 +1,38 @@
+
+.theme-dark {
+    --background-color: #f71313e8;
+    --background-color-2: #F0F0F0;
+    --background-color-header: #282C34;
+    --background-gradient-1: #2b2a2a;
+    --background-gradient-2: #ffffff;
+    --background-gradient-3: #ffffff;
+    --text-color: #1e1e1e;
+    --text-color-header: #fff;
+    --text-color-white: #fffdfd;
+    --text-color-black: #1e1e1e;
+    --element-color: #282C34;
+    --element-color-2: #e9807400;
+
+    --situation-bg-color: #e9807400;
+    --situation-icon: #e98074;
+    --situation-icon-bg: #e9807400;
+    --situation-text: #ffffff;
+    --situation-border-radius: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.line-item-row-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: var(--background-color-2);
+    border-bottom: 1px solid var(--element-color);
+}

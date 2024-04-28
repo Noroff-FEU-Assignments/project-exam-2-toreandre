@@ -1,0 +1,68 @@
+.map-side-filter-container {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #282c34;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px 0 0 10px;
+}
+
+.map-side-filter-operator {
+    display: flex;
+}
+
+.map-side-filter-category {
+    display: flex;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 10px 0 0 10px;
+}
+
+.map-side-filter-category:hover {
+    background-color: #35393f;
+}
+
+.map-side-filter-icon {
+    width: 35px;
+}
+
+.map-side-filter-slide {
+    width: 0;
+    overflow: hidden;
+    transition: width 0.3s ease-in-out;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #282c34;
+    height: 100%;
+    z-index: -1;
+}
+
+.map-side-filter-slide-active {
+    width: 220px;
+}
+
+
+.map-side-filter-operator-icon {
+    width: 30px;
+}
+
+.side-filter-label {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.map-side-filter-item {
+    display: flex;
+    gap: 0.3rem;
+}
+
+.map-side-filter-checkbox {
+    width: 30px;
+}
